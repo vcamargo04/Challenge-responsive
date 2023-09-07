@@ -4,18 +4,18 @@ export default function Rodape() {
         <footer>
         <div className="footer">
             <div><img src="./logo-porto-footer.png"alt="Logo porto rodape" /></div>
-        <p>&copy; Todos os direitos reservados - 2023</p>
+          <p>&copy; Todos os direitos reservados - 2023</p>
 
-          <div>
+          <div className="lista-footer">
             <ul>
               <li>
-                <a href="#"><img src="./facebook.png" alt="Icon do facebook" /></a>
+                <a href="https://www.facebook.com/porto/?locale=pt_BR" target="_blank"><img src="./facebook.png" alt="Icon do facebook" /></a>
               </li>
               <li>
-                <a href="#"><img src="./instagram.png" alt="Icon do instagram" /></a>
+                <a href="https://www.instagram.com/porto/" target="_blank"><img src="./instagram.png" alt="Icon do instagram" /></a>
               </li>
               <li>
-                <a href="#"><img src="./twitter.png" alt="Icon do twitter" /></a>
+                <a href="https://twitter.com/portoseguro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="./twitter.png" alt="Icon do twitter" /></a>
               </li>
             </ul>
             
