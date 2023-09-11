@@ -10,6 +10,7 @@ import Login from './routes/login.jsx';
 import Cadastro from './routes/cadastro.jsx';
 import Descricao from './routes/descricao.jsx';
 import Integrantes from './routes/integrantes.jsx';
+import Home from './routes/home.jsx';
 
 
 const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
     element: <App />,
     children:[
       
+      {
+        path: "/home",
+        element: <Home/>
+      },
       {
         path: "/login",
         element: <Login/>
