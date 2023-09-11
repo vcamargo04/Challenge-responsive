@@ -5,7 +5,7 @@ export default function Cabecalho() {
         <>
         <header className="header">
         <div>
-        <img src="./Porto.png" alt="Logo da Porto cabecalho" />
+        <img className="logo-pedal-seguro" src="./pedal_seguro_dark.png" alt="Logo da Pedal Seguro" />
         
         
         </div>
@@ -13,7 +13,7 @@ export default function Cabecalho() {
             <nav>
             <div className="btn-cabecalho-1">
 
-            <button className="btn-cabecalho"><Link className="link" to="/">Home</Link></button>
+            <button className="btn-cabecalho"><Link className="link" to="/home">Home</Link></button>
             <button className="btn-cabecalho"><Link className="link" to="/login">Login</Link></button>
             <button className="btn-cabecalho"><Link className="link" to="/cadastro">Cadastro</Link></button> 
             
