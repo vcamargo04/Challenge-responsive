@@ -6,10 +6,9 @@ import  './css/rodape.css'
 import './css/estilo.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Autenticador from './routes/autenticador.jsx';
-import Dados from './routes/dados.jsx';
+import Login from './routes/login.jsx';
+import Cadastro from './routes/cadastro.jsx';
 import Descricao from './routes/descricao.jsx';
-import Num_de_Serie from './routes/num_de_serie.jsx';
 import Integrantes from './routes/integrantes.jsx';
 
 
@@ -20,20 +19,16 @@ const router = createBrowserRouter([
     children:[
       
       {
-        path: "/autenticador",
-        element: <Autenticador/>
+        path: "/login",
+        element: <Login/>
       },
       {
-        path: "/dados",
-        element: <Dados/>
+        path: "/cadastro",
+        element: <Cadastro/>
       },
       {
         path: "/descricao",
         element: <Descricao/>
-      },
-      {
-        path: "/num_de_serie",
-        element: <Num_de_Serie/>
       },
       {
         path: "/integrantes",

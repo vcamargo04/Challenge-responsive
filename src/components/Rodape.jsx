@@ -3,7 +3,7 @@ export default function Rodape() {
       <>
         <footer>
         <div className="footer">
-            <div><img src="./logo-porto-footer.png"alt="Logo porto rodape" /></div>
+            <div><img className="img-logo-porto" src="./logo-porto-footer.png"alt="Logo porto rodape" /></div>
           <p>&copy; Todos os direitos reservados - 2023</p>
 
           <div className="lista-footer">
