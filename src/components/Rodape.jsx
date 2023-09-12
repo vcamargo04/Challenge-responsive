@@ -15,7 +15,7 @@ export default function Rodape() {
                 <a href="https://www.instagram.com/porto/" target="_blank"><img src="./instagram.png" alt="Icon do instagram" /></a>
               </li>
               <li>
-                <a href="https://twitter.com/portoseguro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="./twitter.png" alt="Icon do twitter" /></a>
+                <a href="https://twitter.com/portoseguro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img className="img-twitter" src="./iconetwitter.png" alt="Icon do twitter" /></a>
               </li>
             </ul>
             
