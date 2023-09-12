@@ -1,0 +1,98 @@
+.solicitar-vistoria-container {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f7f7f7;
+}
+
+.solicitar-vistoria-container h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.solicitar-vistoria-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 94%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.solicitar-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.solicitar-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .solicitar-vistoria-form {
+      max-width: 100%;
+  }
+
+  .form-group textarea {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .solicitar-vistoria-form {
+      padding: 10px;
+  }
+
+  .form-group label {
+      font-size: 16px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+      font-size: 14px;
+  }
+
+  .solicitar-button {
+      padding: 10px 20px;
+      font-size: 16px;
+  }
+}

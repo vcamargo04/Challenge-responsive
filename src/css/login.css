@@ -1,0 +1,61 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+      height: auto;
+      padding: 20px;
+  }
+
+  .login-form {
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+      height: auto;
+      padding: 20px;
+  }
+
+  .login-form {
+      max-width: 100%;
+      padding: 10px;
+  }
+
+  .form-group {
+      text-align: left;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+
+  button[type="submit"] {
+      padding: 10px 20px;
+  }
+
+  .mostrar-senha-button {
+      margin-top: 10px;
+  }
+}
