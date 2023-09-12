@@ -1,4 +1,7 @@
-/* solicitarVistoria.css */
+
+.home-container {
+  height: 54.5vh;
+}
 
 .solicitar-vistoria-container {
   background-color: #f0f0f0;
@@ -6,6 +9,8 @@
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
+  max-width: 800px; 
+  margin: 0 auto; 
 }
 
 .solicitar-vistoria-container h2 {
@@ -45,4 +50,49 @@
 
 .solicitar-vistoria-button:hover {
   background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+  .solicitar-vistoria-container {
+    padding: 15px; 
+  }
+
+  .solicitar-vistoria-container h2 {
+    font-size: 20px; 
+  }
+
+  .solicitar-vistoria-container p {
+    font-size: 14px; 
+  }
+
+  .solicitar-vistoria-container ul {
+    font-size: 14px; 
+  }
+
+  .solicitar-vistoria-button {
+    font-size: 16px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .solicitar-vistoria-container {
+    padding: 10px; 
+  }
+
+  .solicitar-vistoria-container h2 {
+    font-size: 18px; 
+  }
+
+  .solicitar-vistoria-container p {
+    font-size: 12px; 
+  }
+
+  .solicitar-vistoria-container ul {
+    font-size: 12px; 
+  }
+
+  .solicitar-vistoria-button {
+    font-size: 14px; 
+  }
 }

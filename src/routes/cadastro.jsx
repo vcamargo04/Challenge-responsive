@@ -44,7 +44,7 @@ export default function Cadastro() {
     <div className="cadastro-container">
       <form onSubmit={handleSubmit} className="cadastro-form">
         <fieldset>
-          <legend>Cadastro</legend>
+          <legend>CADASTRO</legend>
           <div className="form-group">
             <label>Nome:</label>
             <input type="text" name="nome" value={dados.nome} onChange={handleChange} />

@@ -1,0 +1,70 @@
+
+.integrantes-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  .integrantes-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .integrante-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .integrante-nome {
+    font-weight: bold;
+  }
+  
+  .integrante-matricula {
+    color: #777;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .integrantes-container {
+      padding: 15px; 
+    }
+  
+    .integrantes-container h2 {
+      font-size: 20px; 
+    }
+  
+    .integrante-item {
+      padding: 8px; 
+    }
+  
+    .integrante-nome {
+      font-weight: normal; 
+    }
+  }
+  
+ 
+  @media (max-width: 480px) {
+    .integrantes-container {
+      padding: 10px; 
+    }
+  
+    .integrantes-container h2 {
+      font-size: 18px; 
+    }
+  
+    .integrante-item {
+      padding: 5px; 
+    }
+  }
+  
