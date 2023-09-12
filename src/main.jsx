@@ -11,7 +11,7 @@ import Cadastro from './routes/cadastro.jsx';
 import Descricao from './routes/descricao.jsx';
 import Integrantes from './routes/integrantes.jsx';
 import Home from './routes/home.jsx';
-
+import SolicitarVistoria from './routes/solicitarVistoria.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,7 +38,11 @@ const router = createBrowserRouter([
       {
         path: "/integrantes",
         element: <Integrantes/>
-      }
+      },
+      {
+        path: "/solicitarVistoria",
+        element: <SolicitarVistoria/>
+      },
     ]
   }
 ]);
