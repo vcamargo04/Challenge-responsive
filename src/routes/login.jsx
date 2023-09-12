@@ -1,18 +1,22 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; 
 import '../css/login.css';
 
 export default function Login() {
+  document.title = "Login";
+
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
   const [mostrarSenha, setMostrarSenha] = useState(false);
   const [mensagem, setMensagem] = useState('');
+  
+  
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
-
     
     const clientesCadastrados = JSON.parse(localStorage.getItem('clientes')) || [];
-
     
     const clienteEncontrado = clientesCadastrados.find(
       (cliente) => cliente.email === email && cliente.senha === senha
@@ -20,6 +24,9 @@ export default function Login() {
 
     if (clienteEncontrado) {
       setMensagem('Login bem-sucedido!');
+      
+      
+      navigate('/solicitarVistoria');
     } else {
       setMensagem('Email ou senha incorretos.');
     }
