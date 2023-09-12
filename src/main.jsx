@@ -8,10 +8,11 @@ import './css/estilo.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login from './routes/login.jsx';
 import Cadastro from './routes/cadastro.jsx';
-import Descricao from './routes/descricao.jsx';
+
 import Integrantes from './routes/integrantes.jsx';
-import Home from './routes/home.jsx';
+import Home from './routes/index.jsx';
 import SolicitarVistoria from './routes/solicitarVistoria.jsx';
+import Vistoria from './routes/vistoria.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     children:[
       
       {
-        path: "/home",
+        path: "/",
         element: <Home/>
       },
       {
@@ -32,8 +33,8 @@ const router = createBrowserRouter([
         element: <Cadastro/>
       },
       {
-        path: "/descricao",
-        element: <Descricao/>
+        path: "/vistoria",
+        element: <Vistoria/>
       },
       {
         path: "/integrantes",
@@ -42,7 +43,7 @@ const router = createBrowserRouter([
       {
         path: "/solicitarVistoria",
         element: <SolicitarVistoria/>
-      },
+      }
     ]
   }
 ]);

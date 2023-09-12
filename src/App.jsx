@@ -10,6 +10,7 @@ export default  function App() {
     <>
       <div className="container">
         <Cabecalho/>
+        
         <Outlet/>
       <Rodape/>
       </div>
