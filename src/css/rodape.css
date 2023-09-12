@@ -1,33 +1,42 @@
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #000;
     height: 150px;
 }
-.footer p{
+
+.footer p {
     display: flex;
     align-items: center;
     color: white;
-    margin-left: 7.6rem;
 }
-.lista-footer ul{
+
+.lista-footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 3rem;
 
 }
-.lista-footer li{
+
+.lista-footer li {
     list-style: none;
-   
+
 }
-.lista-footer{
+
+.lista-footer {
     display: flex;
     align-items: center;
     padding-right: 2px;
 }
-.img-logo-porto{
+
+.img-logo-porto {
     width: 14rem;
     height: 5rem;
+}
+
+.img-twitter {
+    width: 74px;
+    height: 71px;
 }
