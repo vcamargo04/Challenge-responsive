@@ -14,10 +14,10 @@ export default function Cabecalho() {
             <div className="btn-cabecalho-1">
 
             
-            <button className="btn-cabecalho"><Link className="link" to="/login">Login</Link></button>
-            <button className="btn-cabecalho"><Link className="link" to="/cadastro">Cadastro</Link></button> 
-            <button className="btn-cabecalho"><Link className="link" to="/descricao">Descrição</Link></button>
-            <button className="btn-cabecalho"><Link className="link" to="/integrantes">Integrantes</Link></button>
+            <button className="btn-cabecalho"><Link className="link" to="/login">LOGIN</Link></button>
+            <button className="btn-cabecalho"><Link className="link" to="/cadastro">CADASTRO</Link></button> 
+            <button className="btn-cabecalho"><Link className="link" to="/descricao">DESCRIÇÃO</Link></button>
+            <button className="btn-cabecalho"><Link className="link" to="/integrantes">INTEGRANTES</Link></button>
             
             
             </div>
